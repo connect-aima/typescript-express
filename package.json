@@ -1,0 +1,21 @@
+{
+  "name": "express-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "build": "npx tsc",
+    "start": "npx tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.8",
+    "@tsconfig/node22": "^22.0.5",
+    "@types/express": "^5.0.6"
+  }
+}
